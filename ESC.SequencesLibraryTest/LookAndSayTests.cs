@@ -4,11 +4,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ESC.SequencesLibraryTest
 {
     [TestClass]
-    public class UnitTest1
+    public class LookAndSayTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestGenerateLookAndSaySequence()
         {
+            string firstTerm = "1";
+
+
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>ba67e51d-eabc-4570-85c0-e60d6e2c3b54</ProjectGuid>
+    <ProjectGuid>{3657FD45-4729-4FAA-8410-5FF8A9ECE6F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LookAndSay</RootNamespace>
+    <RootNamespace>LookAndSayApp</RootNamespace>
     <AssemblyName>LookAndSay</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ESC.SequencesLibrary\ESC.SequencesLibrary.csproj">
+      <Project>{61e55644-37eb-48d8-86bf-23ba73befc88}</Project>
+      <Name>ESC.SequencesLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

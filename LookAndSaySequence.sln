@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESC.SequencesLibrary", "ESC.SequencesLibrary\ESC.SequencesLibrary.csproj", "{61E55644-37EB-48D8-86BF-23BA73BEFC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESC.SequencesLibraryTest", "ESC.SequencesLibraryTest\ESC.SequencesLibraryTest.csproj", "{E8118C13-4ADD-467B-898D-BA98B763C2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookAndSayApp", "LookAndSay\LookAndSayApp.csproj", "{3657FD45-4729-4FAA-8410-5FF8A9ECE6F4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E55644-37EB-48D8-86BF-23BA73BEFC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E55644-37EB-48D8-86BF-23BA73BEFC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E55644-37EB-48D8-86BF-23BA73BEFC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E55644-37EB-48D8-86BF-23BA73BEFC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8118C13-4ADD-467B-898D-BA98B763C2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8118C13-4ADD-467B-898D-BA98B763C2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8118C13-4ADD-467B-898D-BA98B763C2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8118C13-4ADD-467B-898D-BA98B763C2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3657FD45-4729-4FAA-8410-5FF8A9ECE6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3657FD45-4729-4FAA-8410-5FF8A9ECE6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3657FD45-4729-4FAA-8410-5FF8A9ECE6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3657FD45-4729-4FAA-8410-5FF8A9ECE6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
