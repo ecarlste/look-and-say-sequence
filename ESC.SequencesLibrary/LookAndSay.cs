@@ -8,6 +8,31 @@ namespace ESC.SequencesLibrary
 {
     public class LookAndSay
     {
+        public static string NextNumber(string number)
+        {
+            StringBuilder result = new StringBuilder();
+
+            char repeat = number[0];
+            number = number.Substring(1, number.Length-1)+" ";
+            int times = 1;
+
+            foreach (char actual in number)
+            {
+                if (actual != repeat)
+                {
+                    result.Append(Convert.ToString(times) + repeat);
+                    times = 1;
+                    repeat = actual;
+                }
+                else
+                {
+                    times++;
+                }
+            }
+
+            return result.ToString();
+        }
+
         public List<string> Generate10(string first)
         {
             List<string> first10 = new List<string>();
