@@ -11,9 +11,7 @@ namespace LookAndSayApp
     {
         static void Main(string[] args)
         {
-            LookAndSay lookAndSay = new LookAndSay();
-
-            List<string> sequence = lookAndSay.Generate10("1");
+            List<string> sequence = LookAndSay.Generate10("1");
         }
     }
 }

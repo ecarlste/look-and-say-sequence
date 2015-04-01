@@ -33,18 +33,23 @@ namespace ESC.SequencesLibrary
             return result.ToString();
         }
 
-        public List<string> Generate10(string first)
+        public static List<string> GenerateSequence(string firstNumber, int termCount)
         {
-            List<string> first10 = new List<string>();
-            first10.Add(first);
+            List<string> sequence = new List<string>();
+            sequence.Add(firstNumber);
 
-            for (int currentCharacter = 1; currentCharacter < 10; currentCharacter++)
+            for (int currentCharacter = 1; currentCharacter < termCount; currentCharacter++)
             {
-                string nextNumber = NextNumber(first10.Last());
-                first10.Add(nextNumber);
+                string nextNumber = NextNumber(sequence.Last());
+                sequence.Add(nextNumber);
             }
 
-            return first10;
+            return sequence;
+        }
+
+        public static List<string> Generate10(string firstNumber)
+        {
+            return GenerateSequence(firstNumber, 10);
         }
     }
 }
